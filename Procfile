@@ -1,1 +1,1 @@
-web: gunicorn userActivity.wsgi --log-file -
+web: gunicorn userActivity.wsgi --timeout 15 --log-file -
