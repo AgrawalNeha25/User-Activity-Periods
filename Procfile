@@ -1,0 +1,1 @@
+web: gunicorn userActivity.wsgi --log-file -
